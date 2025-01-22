@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pictute tag </h1>
+    <p>resize the website to observe the picture changes.</p>
+    <picture>
+        <source  height="400px" media="(min-width:650px)" srcset="./Asserts/Blackcar.jpg">
+        <source height="400px" media="(min-width:450px)" srcset="./Asserts/Bmw-blue.jpg">
+        <img height="150px" src="./Asserts/pushpa.jpg" alt="" style="width: auto;">
+    </picture>
+
+    <br><br><br><br>
+
+    <h1>Form option </h1>
+
+    <form action="./submit.html">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="Thar">Thar</option>
+          <option value="fiat">Fiat</option>
+          <option value="Bmw">Bmw</option>
+        </select>
+        <input type="submit">
+
+    <br><br><br>
+    <h1>Form datalist</h1>
+    <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+      
+      </form>
+
+      
+
+        
+
+</body>
+</html>
